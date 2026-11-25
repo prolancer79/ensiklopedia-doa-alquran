@@ -1,0 +1,20 @@
+ENSIKLOPEDIA DOA AL-QURAN — PAKEJ PWA
+
+Kandungan:
+- index.html: aplikasi web
+- manifest.webmanifest: metadata pemasangan
+- service-worker.js: cache asas untuk shell aplikasi
+- icons/: ikon Android
+
+PENTING: Pemasangan PWA memerlukan laman diterbitkan melalui HTTPS (atau localhost untuk ujian). Fail HTML yang dibuka terus dari storan telefon (file://) tidak boleh memasang service worker.
+
+CARA TERBITKAN (contoh GitHub Pages):
+1. Ekstrak ZIP ini pada komputer.
+2. Muat naik semua kandungan folder ini ke repositori GitHub baharu.
+3. Di Settings > Pages, pilih deploy from branch dan folder root.
+4. Tunggu URL HTTPS GitHub Pages tersedia.
+5. Buka URL itu menggunakan Chrome Android > menu ⋮ > Install app / Add to Home screen.
+
+Alternatif: hoskan folder ini pada mana-mana static hosting yang menyediakan HTTPS.
+
+Audio: pautan audio membuka Quran.com; audio memerlukan sambungan internet. Kegemaran disimpan secara setempat dalam pelayar.
